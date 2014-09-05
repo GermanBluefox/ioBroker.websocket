@@ -380,7 +380,12 @@ function socketEvents(socket, user) {
         });
     });
 
-
+    /*
+     *      History
+     */
+    socket.on('getStateHistory', function (id, start, end, callback) {
+        adapter.getForeignStateHistory(id, start, end, callback);
+    });
 
 
     // HTTP
