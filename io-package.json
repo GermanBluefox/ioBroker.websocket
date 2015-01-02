@@ -1,7 +1,7 @@
 {
     "common": {
         "name":                     "websocket",
-        "version":                  "0.0.2",
+        "version": "0.0.2",
         "title":                    "ioBroker webserver with socket.io",
         "desc": {
             "en":                   "express based webserver with socket.io"
