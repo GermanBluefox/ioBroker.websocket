@@ -1,7 +1,7 @@
 {
     "common": {
         "name":                     "websocket",
-        "version":                  "0.0.1",
+        "version":                  "0.0.2",
         "title":                    "ioBroker webserver with socket.io",
         "desc": {
             "en":                   "express based webserver with socket.io"
@@ -9,12 +9,13 @@
         "mode":                     "daemon",
         "platform":                 "Javascript/Node.js",
         "loglevel":                 "info",
-        "icon":                     "admin.png",
+        "icon":                     "websocket.png",
         "keywords":                 ["webserver", "web", "www", "websocket", "socket.io"],
-        "readme":                   "https://github.com/ioBroker/ioBroker.websocket/blob/master/README.md"
+        "readme":                   "https://github.com/ioBroker/ioBroker.websocket/blob/master/README.md",
+        "extIcon":                  "https://raw.githubusercontent.com/ioBroker/ioBroker.websocket/master/admin/websocket.png"
     },
     "native": {
-        "port":                     8083,
+        "port":                     8085,
         "auth":                     false,
         "secure":                   false,
         "bind":                     "0.0.0.0",
