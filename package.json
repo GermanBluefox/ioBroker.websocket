@@ -1,6 +1,21 @@
 {
   "name": "ioBroker.websocket",
-  "private": true,
+  "version": "0.0.2",
+  "description": "express based webserver with socket.io",
+  "author": "hobbyquaker <hq@ccu.io>",
+  "homepage": "https://github.com/ioBroker/ioBroker.websocket",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ioBroker/ioBroker.websocket/blob/master/LICENSE"
+    }
+  ],
+  "keywords":  ["ioBroker", "web", "socket.io"],
+  "readmeFilename": "README.md",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ioBroker/ioBroker.websocket"
+  },
   "dependencies": {
     "express": "~4.4.4",
     "socket.io": "~1.0.6",
@@ -12,5 +27,16 @@
     "request": "~2.38.0",
     "connect-flash": "~0.1.1",
     "xtend": "~2.0.3"
+  },
+  "devDependencies": {
+      "grunt": "~0.4.4",
+      "grunt-replace": "~0.7.6",
+      "grunt-contrib-jshint": "~0.10.0",
+      "grunt-jscs": "~0.6.1",
+      "grunt-http": "~1.4.1",
+      "grunt-contrib-clean": "~0.5.0",
+      "grunt-contrib-compress": "~0.8.0",
+      "grunt-contrib-copy": "~0.5.0",
+      "grunt-exec": "~0.4.5"
   }
 }
