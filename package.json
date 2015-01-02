@@ -1,5 +1,5 @@
 {
-  "name": "ioBroker.websocket",
+  "name": "iobroker.websocket",
   "version": "0.0.2",
   "description": "express based webserver with socket.io",
   "author": "hobbyquaker <hq@ccu.io>",
